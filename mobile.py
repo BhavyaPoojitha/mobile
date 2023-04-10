@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from PIL import Image
-logo = Image.open('logo1.png')
+logo = Image.open('logo.png')
 #pip install pandas numpy matplotlib seaborn streamlit
 #to run streamlit :   streamlit run weathertest.py 
 st.set_page_config(page_title="Mobile  EDA", page_icon=":bar_chart:", layout="wide")
